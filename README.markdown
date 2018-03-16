@@ -17,7 +17,7 @@ the same level.
 
 ```
 # git clone https://github.com/openzfsonosx/spl.git
-# ( cd spl && ./autogen.sh && ./configure )
+# ( cd spl && ./autogen.sh && ./configure && make )
 # git clone https://github.com/openzfsonosx/zfs.git
 # cd zfs
 # ./autogen.sh
