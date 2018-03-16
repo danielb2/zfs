@@ -16,7 +16,10 @@ Place repository directories "spl" and "zfs" next to each other, on
 the same level.
 
 ```
+# git clone https://github.com/openzfsonosx/spl.git
+# ( cd spl && ./autogen.sh && ./configure )
 # git clone https://github.com/openzfsonosx/zfs.git
+# cd zfs
 # ./autogen.sh
 # ./configure
 # make
